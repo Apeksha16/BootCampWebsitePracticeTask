@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+.iconHeading{
+    display: flex;  
+    gap: 10px;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EADFB4; 
+    padding: 10px 20px; 
+}
+
+.navbar p {
+font-size: 22px;
+}
+nav{
+    display: none;
+
+}
+nav ul {
+    list-style-type: none; 
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px; 
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: burlywood; 
+}
+
+.user-icon,.hamburger {
+    color: black; 
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.hamburger{
+    display: block;
+}
+
+@media (min-width:768px){
+.hamburger{
+    display: none;
+
+}
+.left{
+    display: none;
+}
+
+nav{
+    display: block;
+}
+}
+
+.content{
+    display: flex;
+    height: calc(100vh - 46px);
+}
+.left{
+    background-color: #51829B;
+
+}
+.right{
+    background-color: #9BB0C1;
+}
+
+
+.left ul li a {
+color: white;
+transition: color 0.3s ease;
+text-decoration: none;
+}
+
+.left ul li a:hover{
+color: burlywood; 
+
+}
+
+.left ul li{
+margin: 20px 0px 0px 20px;
+list-style-type: none; 
+
+}
+
+
+.input {
+width: 170px;
+padding: 12px;
+border: 2px solid #51829B;
+border-radius: 8px;
+outline: none;
+font-size: 14px;
+transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+background-color: #fff;
+color: #333;
+box-sizing: border-box;
+/* margin: 50px; */
+}
+
+.input:focus {
+border-color: #124076;   
+transform: scale(1.02);
+}
+
+/* Placeholder Styling */
+.input::placeholder {
+color: #aaa;
+}
+
+/* Hover Effect */
+.input:hover {
+background-color: #f0f8ff;
+} 
+
+
+
+
+
+button {
+display: inline-block;
+border-radius: 4px;
+background-color: #3d405b;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 15px;
+padding: 16px;
+width: 130px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+
+button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+button span:after {
+content: '»';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -15px;
+transition: 0.5s;
+}
+
+button:hover span {
+padding-right: 15px;
+}
+
+button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+h1{
+text-align: center;
+margin-top: 16px;
+}
+.test-text{
+margin: 20px;
+}
+.text-button{
+text-align: center;
+}
