@@ -27,6 +27,19 @@ p {
     font-size: 12px;
 }
 
+input[type="tel"],
+input[type="tel"]:focus {
+    padding: 12px;
+    font-size: 12px; 
+    border: 1px solid #56A37D; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #F2F7F4;
+    color: black;
+    width: 190px; 
+
+}
+
 button {
     background-color: #56A37D;
     color: white;
@@ -37,27 +50,8 @@ button {
     cursor: pointer; 
     transition: background-color 0.3s ease;
     width:200px;
-    margin-top: 18px;
 }
 
 button:hover {
     background-color: #3E795C; 
 }
-input.otp-input {
-    padding: 10px;
-    font-size: 10px;
-    border: 1px solid #56A37D;
-    border-radius: 6px;
-    background-color: #F2F7F4;
-    color: black;
-    width: 20px;
-    text-align: center;
-    margin-right: 4px;
-}
-
-.otp-inputs {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
