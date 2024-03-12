@@ -56,26 +56,13 @@ nav ul li a:hover {
     display: block;
 }
 
-@media (min-width:768px){
-.hamburger{
-    display: none;
-
-}
-.left{
-    display: none;
-}
-
-nav{
-    display: block;
-}
-}
-
 .content{
     display: flex;
     height: calc(100vh - 46px);
 }
 .left{
     background-color: #51829B;
+    display: none;
 
 }
 .right{
@@ -112,7 +99,6 @@ transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
 background-color: #fff;
 color: #333;
 box-sizing: border-box;
-/* margin: 50px; */
 }
 
 .input:focus {
@@ -120,12 +106,10 @@ border-color: #124076;
 transform: scale(1.02);
 }
 
-/* Placeholder Styling */
 .input::placeholder {
 color: #aaa;
 }
 
-/* Hover Effect */
 .input:hover {
 background-color: #f0f8ff;
 } 
@@ -184,3 +168,26 @@ margin: 20px;
 .text-button{
 text-align: center;
 }
+
+@media (min-width:568px) {
+    .left{
+        display: block;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+
+@media (min-width:768px){
+    .hamburger{
+        display: none;
+    
+    }
+    .left{
+        display: none;
+    }
+    
+    nav{
+        display: block;
+    }
+    }
