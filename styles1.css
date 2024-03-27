@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+
+.container {
+    width: 90%;
+    max-width: 280px;
+    margin: 20px 8px 10px 8px;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 30px);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content input {
+    /* width: 100%; */
+}
+
+.logo img {
+    width: 100%;
+
+}
+
+.input-box-details{
+    color: white;
+}
+
+.input-box{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1E1E1E ;
+    border: 1px solid gray;
+    color: white;
+
+}
+
+.checkbox-forgotpassword {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-content {
+    color: white;
+    cursor: pointer;
+}
+
+.reset-password {
+    color: #27893A;
+}
+
+.login-btn{
+    background-color: #ffc33f;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid #ffc33f;
+    margin-bottom: 24px;
+}
+
+    .section-break{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.section-break hr {
+    flex: 1;
+    background-color: gray;
+    height: 1px;
+    border: 0;
+}
+
+.section-break p {
+    margin: 0 10px;
+    color: white;
+}
+
+.login-btn1 {
+    background-color: #1E1E1E; 
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 6px;
+    border: 1px solid gray; 
+    margin-bottom: 24px;
+    color: white; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    cursor: pointer; 
+    width: 100%; 
+    max-width: 280px; 
+    margin-top: 12px;
+}
+
+
+.fb-logo,.gmail-logo{
+    height: 30px;
+    margin-right: 4px;
+}
+
+
+@media (min-width:568px) {
+    .container {
+        max-width: 500px;
+    }
+}
