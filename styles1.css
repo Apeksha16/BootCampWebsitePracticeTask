@@ -20,10 +20,11 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-}
+}   
 
-.content input {
-    /* width: 100%; */
+.logo{
+    display: flex;
+    justify-content: center;
 }
 
 .logo img {
@@ -100,8 +101,7 @@ body {
     text-align: center; 
     cursor: pointer; 
     width: 100%; 
-    max-width: 280px; 
-    margin-top: 12px;
+    margin-top: 24px;
 }
 
 
@@ -114,5 +114,8 @@ body {
 @media (min-width:568px) {
     .container {
         max-width: 500px;
+    }
+    .logo img {
+width: 90%;    
     }
 }
